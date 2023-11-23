@@ -1,0 +1,23 @@
+{
+  "file_identifier": [
+    "consultant_business"
+  ],
+  "name": [
+    "Consultant Name"
+  ],
+  "id": [
+    "12345678901"
+  ],
+  "address1": [
+    "Street"
+  ],
+  "address2": [
+    "City"
+  ],
+  "address3": [
+    "Country and Postal Code"
+  ],
+  "phone": [
+    "+00 00 00000 0000"
+  ]
+}
