@@ -5,10 +5,10 @@ box::use(
 )
 
 box::use(
-  .. / utils / constants[...],
-  .. / logic / save_files[...],
-  .. / logic / input_fun[...],
-  .. / modules / grouped_element
+  .. / .. / utils / constants[...],
+  .. / .. / logic / save_files[...],
+  .. / .. / logic / input_fun[...],
+  . / grouped_element
 )
 
 ui <- function(id) {
@@ -161,7 +161,6 @@ server <- function(id, rv_jsons, sublist, file_reac, exchange_rate, temp_folder_
         nested_and_root_save(
           input,
           nested_list = rv_jsons[[sublist]],
-          prefix = "",
           folders = c(folder, file.path(temp_folder_session(), "json")),
           file_name,
           to_remove = to_remove

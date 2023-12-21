@@ -1,3 +1,19 @@
+# shinyInvoice 0.0.4
+
+19-12-2023
+
+Fix:
+
+- download of .json files
+- bump dates when last day of month
+- consider leap years when bumping
+- correct .Rmd extension for Android download
+
+Features:
+
+- bump month everywhere button
+- function to bump dates by month
+
 # shinyInvoice 0.0.3
 
 12-12-2023
